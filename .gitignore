@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+/.idea/
+.DS_Store
+Thumbs.db
+.cache-loader
+app/dist
+npm-debug.log
+yarn-error.log
+/vendor
