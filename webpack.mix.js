@@ -20,7 +20,7 @@ mix.setPublicPath('app/dist')
 mix.js('resources/assets/scripts/app.js', 'scripts')
   .postCss('resources/assets/styles/app.css', 'styles',
     [
-      require("tailwindcss"),
+      require('tailwindcss'),
     ]);
 
 mix.copyWatched('resources/assets/images/**', 'app/dist/images')
