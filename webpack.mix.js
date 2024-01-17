@@ -23,6 +23,12 @@ mix.js('resources/assets/scripts/app.js', 'scripts')
       require('tailwindcss'),
     ]);
 
+/**
+ * Extract vendor libraries from the main bundle
+ * and put them in a separate vendor.js file.
+ */
+mix.extract();
+
 mix.copyWatched('resources/assets/images/**', 'app/dist/images')
   .copyWatched('resources/assets/fonts/**', 'app/dist/fonts')
 

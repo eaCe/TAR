@@ -56,6 +56,7 @@ function mix($path) {
 }
 
 //mix('/styles/app.css');
+//mix('/scripts/vendor.js');
 //mix('/scripts/app.js');
 ```
 
